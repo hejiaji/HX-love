@@ -6,7 +6,10 @@
     "version": "0.0.1",
     "slug": "expo.host/@hejiaji/HX-Love",
     "ios": {
-      "bundleIdentifier": "com.JeremyHe.love"
+      "bundleIdentifier": "com.jeremy.HX-Love"
+    },
+    "android": {
+      "package": "com.jeremy.HX-Love"
     }
   }
 }
