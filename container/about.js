@@ -1,14 +1,19 @@
 import React from 'react';
-import { StyleSheet, Text, View, Image } from 'react-native';
+import { StyleSheet, Text, View, Image, TouchableOpacity, Linking } from 'react-native';
 
 import coupleIcon from '../images/couple.png';
 import coupleFocusIcon from '../images/couple-focused.png';
 import { SafeAreaView } from 'react-navigation';
 
+import loveImage from '../images/love-photo.png';
+import phoneCallIcon from '../images/phone-call.png';
+
 const styles = StyleSheet.create({
   container: {
     flex: 1,
     backgroundColor: '#fff',
+    marginTop: 80,
+    alignItems: 'center',
   },
 });
 
@@ -16,8 +21,11 @@ export default class Home extends React.Component {
   render() {
     return (
       <SafeAreaView style={styles.container}>
-
-        <Text>Empty</Text>
+        <Image source={loveImage} />
+        <Text>Jeremy & Alyssa</Text>
+        <TouchableOpacity style={{marginTop: 10}} onPress={() => Linking.openURL('tel:18511071881')}>
+          <Image source={phoneCallIcon}/>
+        </TouchableOpacity>
       </SafeAreaView>
     );
   }
