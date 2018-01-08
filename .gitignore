@@ -8,6 +8,8 @@
 
 .idea
 
+.idea/workspace.xml
+
 # misc
 .env.local
 .env.development.local

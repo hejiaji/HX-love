@@ -1,5 +1,12 @@
 {
   "expo": {
-    "sdkVersion": "23.0.0"
+    "name": "Your App Name",
+    "sdkVersion": "23.0.0",
+    "icon": "./images/app-icon.png",
+    "version": "0.0.1",
+    "slug": "expo.host/@hejiaji/HX-Love",
+    "ios": {
+      "bundleIdentifier": "com.JeremyHe.love"
+    }
   }
 }
