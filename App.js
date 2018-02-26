@@ -13,7 +13,7 @@ const Routers = TabNavigator({
     tabStyle: {
       top: 5,
     }
-  }
+  },
 });
 
 export default class App extends React.Component {
