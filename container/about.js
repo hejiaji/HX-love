@@ -17,7 +17,7 @@ const styles = StyleSheet.create({
   },
 });
 
-export default class Home extends React.Component {
+export default class About extends React.Component {
   render() {
     return (
       <SafeAreaView style={styles.container}>
@@ -31,7 +31,7 @@ export default class Home extends React.Component {
   }
 }
 
-Home.navigationOptions = {
+About.navigationOptions = {
   title: '',
   tabBarIcon: ({ focused }) => (
     <Image source={focused ? coupleFocusIcon : coupleIcon}/>
