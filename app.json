@@ -8,5 +8,7 @@
     "ios": {
       "bundleIdentifier": "com.jeremy.HX-Love"
     }
-  }
+  },
+  "name": "HXLove",
+  "displayName": "hx-love"
 }
